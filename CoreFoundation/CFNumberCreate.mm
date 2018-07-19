@@ -1,3 +1,6 @@
+// a1: 分配器类型，从NSPlaceholderNumber那传过来的是kCFAllocatorDefault
+// a2: 数值长度
+// a3: 数值
 unsigned __int64 __fastcall CFNumberCreate(__objc2_class **a1, __int64 a2, unsigned int *a3)
 {
   unsigned int *v3; // r12
