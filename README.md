@@ -1,2 +1,3 @@
 # PrivateFrameworkPseudos
-Some pseudo codes generated from private frameworks on Apple platform via IDA and Hopper
+
+Only for personal use, don't count on it by any sort of means😂😂.
