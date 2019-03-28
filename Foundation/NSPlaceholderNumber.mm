@@ -1,6 +1,6 @@
 NSPlaceholderNumber *__cdecl -[NSPlaceholderNumber init](NSPlaceholderNumber *self, SEL a2)
 {
-  // placeholder就意味着之后肯定是会被取代的，如果不会被取代，就没有init出来的必要的意思吗...
+  // placeholder 就意味着之后肯定是会被取代的，如果不会被取代，就没有 init 出来的必要的意思吗...
   return 0LL;
 }
 
@@ -10,7 +10,7 @@ NSPlaceholderNumber *__cdecl -[NSPlaceholderNumber initWithInt:](NSPlaceholderNu
 
   v4 = a3;
 
-  // 其它的 initWithXXX: 等方法也都是调用CFNumberCreate，唯一的区别是指定的数据长度不同
+  // 其它的 initWithXXX: 等方法也都是调用 CFNumberCreate，唯一的区别是指定的数据长度不同
   return (NSPlaceholderNumber *)CFNumberCreate(kCFAllocatorDefault, 3LL, &v4);
 }
 
